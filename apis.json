@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Envelopes",
+	"description": "This is a repository of envelopes APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/envelopes.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://envelopes.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Envelopes",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/envelopes/master/_listings/dezrez/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Envelopes",
+	"include": [
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/envelopes/master/_listings/dezrez/apis.yaml"
+		}
+	]
+}
